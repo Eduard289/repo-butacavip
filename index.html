@@ -3,86 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ButacaVip - Addon Oficial</title>
+    <title>ButacaVip - Sitio Oficial</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
+            background-color: #0f0f0f;
             color: #e0e0e0;
             text-align: center;
-            padding: 50px 20px;
+            padding: 40px 10px;
             margin: 0;
         }
         .container {
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
-            background: #1e1e1e;
+            background: #1a1a1a;
             padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 50px rgba(255, 82, 82, 0.1);
             border: 1px solid #333;
         }
-        h1 { color: #ff5252; margin-bottom: 10px; font-size: 2.5em; }
-        p { line-height: 1.6; color: #aaa; }
-        .badge {
-            background: #333;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 0.8em;
-            margin: 0 5px;
-            color: #fff;
+        h1 { color: #ff5252; margin-bottom: 5px; font-size: 3em; letter-spacing: -1px;}
+        .subtitle { color: #888; margin-bottom: 30px; font-size: 1.1em; }
+        
+        /* Cajas de Info */
+        .info-box {
+            background: #252525;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+            border-left: 4px solid #ff5252;
         }
+        .info-box h3 { margin-top: 0; color: #fff; }
+        
         .url-box {
             background: #000;
             padding: 15px;
-            border-radius: 8px;
+            border-radius: 5px;
             font-family: monospace;
             color: #4caf50;
-            margin: 20px 0;
-            word-break: break-all;
             border: 1px solid #333;
+            user-select: all; /* Facilita copiar */
         }
+
+        /* Botones */
+        .btn-group { margin-top: 30px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;}
         .btn {
-            display: inline-block;
-            background: #ff5252;
-            color: white;
-            padding: 15px 30px;
+            padding: 12px 25px;
             text-decoration: none;
-            border-radius: 30px;
+            border-radius: 8px;
             font-weight: bold;
-            margin-top: 20px;
-            transition: background 0.3s;
+            transition: transform 0.2s;
         }
-        .btn:hover { background: #ff1744; }
-        footer { margin-top: 50px; font-size: 0.8em; color: #666; }
+        .btn:hover { transform: translateY(-3px); }
+        
+        .btn-primary { background: #ff5252; color: white; } /* Rojo */
+        .btn-secondary { background: #333; color: white; border: 1px solid #555; } /* Gris */
+        .btn-telegram { background: #229ED9; color: white; } /* Azul Telegram */
+
+        footer { margin-top: 50px; font-size: 0.8em; color: #555; }
     </style>
 </head>
 <body>
 
     <div class="container">
         <h1>🎬 ButacaVip</h1>
-        <div>
-            <span class="badge">Versión 0.0.1</span>
-            <span class="badge">Kodi Nexus/Omega</span>
-        </div>
+        <p class="subtitle">Investigación y Desarrollo Multimedia para Kodi</p>
         
-        <p>
-            Bienvenido al repositorio oficial. <br>
-            Un proyecto de investigación modular para gestión de contenido.
-        </p>
-
-        <h3>🚀 Fuente para Kodi:</h3>
-        <div class="url-box">
-            https://Eduard289.github.io/repo-butacavip/
+        <div class="info-box">
+            <h3>🔌 Fuente para Gestor de Archivos</h3>
+            <p>Añade esta URL en Kodi para recibir actualizaciones automáticas:</p>
+            <div class="url-box">
+                https://Eduard289.github.io/repo-butacavip/
+            </div>
         </div>
 
-        <p>¿Prefieres instalarlo manualmente?</p>
-        <a href="plugin.video.butacavip-0.0.1.zip" class="btn">📥 Descargar ZIP</a>
+        <div class="info-box" style="border-left-color: #4caf50;">
+            <h3>🆕 Últimas Novedades (v0.0.1)</h3>
+            <ul style="color: #bbb; padding-left: 20px;">
+                <li>Lanzamiento inicial del repositorio.</li>
+                <li>Estructura base optimizada para Nexus y Omega.</li>
+                <li>Integración con GitHub Pages.</li>
+            </ul>
+        </div>
+
+        <div class="btn-group">
+            <a href="plugin.video.butacavip-0.0.1.zip" class="btn btn-primary">
+                📥 Descargar ZIP
+            </a>
+            
+            <a href="https://github.com/Eduard289/plugin.video.butacavip" class="btn btn-secondary">
+                📖 Ver Documentación / README
+            </a>
+            
+            <a href="#" class="btn btn-telegram">
+                ✈️ Telegram Oficial
+            </a>
+        </div>
     </div>
 
     <footer>
-        &copy; 2026 Eduard289 - Educational Project <br>
-        Hosted on GitHub Pages
+        &copy; 2026 Eduard289 Project <br>
+        Desarrollado con fines educativos.
     </footer>
 
 </body>
