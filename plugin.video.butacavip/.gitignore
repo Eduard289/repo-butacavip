@@ -1,0 +1,79 @@
+# ==========================================
+# REGLAS ESTÁNDAR DE PYTHON (LIMPITOS)
+# ==========================================
+
+# Archivos compilados (basura que genera Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones C
+*.so
+
+# Distribución y empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# IMPORTANTE: Se ha eliminado 'lib/' de aquí para que suba tus librerías de Kodi
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instaladores y logs de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# REGLAS ESPECÍFICAS PARA KODI ADDONS
+# ==========================================
+
+# Datos de usuario (Nunca subir esto por privacidad)
+userdata/
+profile/
+
+# Archivos temporales de ejecución del addon
+temp/
+cookies/
+library/
+.cookies/
+
+# Logs de Kodi (si copiaste el addon desde la carpeta de instalación)
+*.log
+*.old.log
+kodi.log
+kodi.old.log
+
+# ==========================================
+# REGLAS ESPECÍFICAS BUTACAVIP (OPTIMIZACIÓN DE PESO)
+# ==========================================
+
+# Carpeta de herramientas pesada (Ahorra 32MB)
+herramientasDesarrollador/
+
+# Notas y reportes de auditoría generados hoy
+notas_personales/
+reportes/
+reporte_*.txt
+auditoria_*.txt
+revisar_*.py
+reparar_*.py
+
+# ==========================================
+# BASURA DEL SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

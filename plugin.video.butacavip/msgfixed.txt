@@ -1,0 +1,3 @@
+[COLOR gold][B]Mensajes del Desarrollador[/B][/COLOR]
+
+[COLOR chartreuse][B]01[/B][/COLOR] [COLOR white]Bienvenido a ButacaVip. Este es un proyecto personal sin ánimo de lucro.[/COLOR]

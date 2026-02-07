@@ -1,0 +1,6 @@
+[COLOR gold][B]Historial de Versiones ButacaVip[/B][/COLOR]
+
+[COLOR limegreen][B]Versión 0.0.1[/B][/COLOR]
+- Inicio del proyecto ButacaVip.
+- Limpieza de código base.
+- Adaptación a Python 3.

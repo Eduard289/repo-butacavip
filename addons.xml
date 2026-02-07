@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.butacavip" name="ButacaVip" version="0.0.1" provider-name="Merovingio">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="script.module.requests"/>
+
+    <import addon="script.module.resolveurl" version="5.1.00"/>
+     <import addon="plugin.video.elementum" optional="true"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>ButacaVip es un Navegador de Páginas Webs</summary>
+    <description>[B]Navega con Kodi por Páginas Webs para poder ver sus contenidos de manera fácil. ButacaVip es un MOD derivado de Balandro, Pelisalacarta y Alfa, y tiene como objeto permitir visualizar Películas, Series, Documentales, etc., todo a través de Internet y directamente desde su sistema Media Center. Este Add-On es tan solo un mero Ejercicio de Aprendizaje del Lenguaje de Programación Python y se distribuye sin Ningún Contenido Multimedia adjunto al mismo. En consecuencia solo las Webs son los Plenamente Responsables de los contenidos que publiquen.[/B]</description>
+    <disclaimer>[B]Los Propietarios y Distribuidores de este Add-On no Proveen ni Distribuyen Ningún Contenido Mostrado por el Add-On, ni Tienen Afiliación alguna con los Proveedores/Webs de contenidos. Está Prohibida su distribución, solo ó junto con Contenidos Multimedia Protegidos por los Derechos de Autor. Si este tipo de contenido está Prohibido en su País, solamente Usted será el Responsable de su uso. La vulneración de estas prohibiciones Exonerarán de cualquier Culpa a sus Autores, Siendo el único Responsable quien lo haya Distribuido o Utilizado Ilegalmente.[/B]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <source>https://github.com/Eduard289/plugin.video.butacavip</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+</addons>
